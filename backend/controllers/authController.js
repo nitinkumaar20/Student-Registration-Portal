@@ -137,7 +137,7 @@ export const forgetPass = async (req, res) => {
         service: "gmail",
         auth: {
           user: "nk999549@gmail.com",
-          pass: "mqitkvdjuzrzwago",
+          pass: "",
         },
       });
 
