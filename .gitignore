@@ -2,16 +2,16 @@
 # Logs
 frontend/logs
 *.log
-f/npm-debug.log*
-f/yarn-debug.log*
-f/yarn-error.log*
-f/pnpm-debug.log*
-f/lerna-debug.log*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
 
-b/node_modules
-f/node_modules
-f/dist
-f/dist-ssr
+backend/node_modules
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
 *.local
 
 # Editor directories and files
