@@ -1,0 +1,172 @@
+/*=================================================================
+  Footer section
+==================================================================*/
+.top-footer {
+    /* background-color: #222222; */
+    background-color: var(--primary);
+    /* border-top: 1px solid #404040; */
+    padding: 70px 0 70px;
+  }
+  .top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .top-footer p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+  }
+  .top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: color 0.3s;
+    font-family: "Source Sans Pro", sans-serif;
+    display: block;
+  }
+  .top-footer li a:hover {
+    color: #28ABE3;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    /* background-color: #1b1b1b; */
+    background-color: var(--secondary);
+    border-top: 1px solid #2c2c2c;
+    padding: 15px 0;
+  }
+  .footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+  }
+  .footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  .footer-bottom a {
+    color: #28ABE3;
+  }
+
+a {
+    text-decoration: none;
+}
+
+/*=================================================================
+  Latest Posts
+==================================================================*/
+.blog {
+    padding-bottom: 60px;
+    padding-top: 80px;
+    background: #F6F6F6;
+  }
+  
+  .posts {
+    padding-bottom: 40px;
+  }
+  
+  .post-item {
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  .post-item .content {
+    padding: 20px;
+  }
+  .post-item .content h3 a {
+    color: #000;
+  }
+  .post-item .content p {
+    color: #757575;
+    margin: 10px 0;
+  }
+  .post-item .content .btn-main {
+    /* padding: .8rem 1.5rem; */
+    border-radius: 2rem;
+    /* margin: 15px 0; */
+    background-color:#28ABE3;
+  }
+  
+  /* 8.2.1 Blog Details */
+  .blog-details h3 {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  
+  /* 8.2.2 Post Content */
+  .post-content ul {
+    margin-bottom: 20px;
+  }
+  .post-content ul li {
+    color: #aaa;
+  }
+  .post-content ul li a {
+    color: #aaa;
+  }
+  .post-content p {
+    margin-bottom: 30px;
+  }
+  .post-content blockquote {
+    border-left: 2px solid #28ABE3;
+    padding: 40px 35px;
+    margin-bottom: 30px;
+    background: rgb(238, 238, 238);
+  }
+  .post-content-share {
+    margin-bottom: 100px;
+  }
+  .post-content-share li a {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background: #fff;
+    transition: 0.3s ease;
+    margin-right: 10px;
+    color: #000;
+    display: inline-block;
+  }
+  .post-content-share li a:hover {
+    background: #28ABE3;
+    border-color: #28ABE3;
+    color: #fff;
+  }
+
+  .courses-card{
+    background: #F6F6F6;
+width: 100%;
+height: 100%;
+  }
+
+
+
+
+  /* //////////////////////////////////////////////// */
+
+/* course component csss here /////////////// */
+
+
+
+

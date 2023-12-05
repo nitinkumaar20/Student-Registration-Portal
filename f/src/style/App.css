@@ -1,0 +1,351 @@
+
+
+* {
+    font-family: "REM", sans-serif;
+    /* font-family: Merriweather; */
+
+    box-sizing: border-box;
+    /* font-size: 80%; */
+}
+
+:root {
+    --primary: #135b85;
+    --secondary: #01324f;
+    /* --secondary:  #135b85; */
+    --RedColor: #d84b4b;
+}
+
+.logo1-nav img {
+    width: 15rem;
+    height: 7rem;
+}
+
+.logo2-nav img {
+    width: 8rem;
+    height: 7rem;
+}
+
+.footer {
+    background-color: var(--primary);
+    bottom: 0;
+}
+
+.nav {
+    background-color: var(--secondary);
+    padding: 0.7rem 0;
+}
+
+.mandatory::after {
+    content: "*";
+    color: #ff0000;
+}
+
+.logoSize {
+    width: 3rem;
+    height: 3rem;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.signup-login-div {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-login-div .nielitLogo {
+    width: 11rem;
+}
+
+.signup-login-div .images-div {
+    background-color: antiquewhite;
+}
+
+.signup-login-div form {
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+/*//////////////////////// dasbboard css ------------/////////////////////////////// */
+.nav-link {
+    border-radius: 1.7rem;
+ 
+    font-size: 1.1rem;
+}
+
+.logout:hover{
+    color: #ff0000;
+}
+
+
+input[type] {
+    background-color: rgb(236, 236, 236);
+}
+
+.form-select {
+    background-color: rgb(236, 236, 236);
+}
+
+/* ------------------------- //////////////////////DashBoard css here //////////////////////////------------------ */
+
+.icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+}
+
+.icon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+}
+
+.icon,
+.icon_header {
+    margin-right: 5px;
+}
+
+.close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+        "sidebar header header header"
+        "sidebar main main main";
+    height: 100vh;
+}
+
+.sidebar_hide {
+    display: grid;
+    /* place-content: center; */
+    /* place-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+        "header header header header"
+        "main main main main";
+    height: 100vh;
+}
+
+/* Header  */
+.header {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+}
+
+.menu-icon {
+    /* display: none; */
+    cursor: pointer;
+}
+
+/* End Header  */
+
+/* Sidebar  */
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    /* background-color: #263043; */
+    background-color: var(--secondary);
+
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+}
+
+.sidebar-title>span {
+    display: none;
+}
+
+.sidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+}
+
+.sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.sidebar-list-item>a {
+    text-decoration: none;
+    color: #9e9ea4;
+}
+
+.sidebar-responsive {
+    display: none;
+
+    /* display: inline !important; */
+    /* position: absolute; */
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    /* z-index: 12 !important; */
+    /* height: 100; */
+}
+
+/* End Sidebar  */
+
+/* Main  */
+.main-container {
+    grid-area: main;
+    /* overflow-y: auto; */
+    /* margin: auto; */
+
+    /* padding: 2rem 3rem; */
+    /* color: rgba(255, 2  55, 255, 0.95); */
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.card-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 2rem;
+    border-radius: 5px;
+}
+
+.card-admin:first-child {
+    background-color: #2962ff;
+}
+
+.card-admin:nth-child(2) {
+    background-color: #ff6d00;
+}
+
+.card-admin:nth-child(3) {
+    background-color: #2e7d32;
+}
+
+.card-admin:nth-child(4) {
+    background-color: #d50000;
+}
+
+.card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-inner>.card_icon {
+    font-size: 25px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 300px;
+}
+
+/* End Main  */
+
+/* Medium <= 992px */
+
+@media screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 3fr;
+        grid-template-areas:
+            "header"
+            "main";
+    }
+
+    .sidebar-responsive {
+        display: inline !important;
+        position: absolute;
+        background-color: #01324f;
+        width: 100vw;
+        height: 100vh;
+        z-index: 12 !important;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline;
+    }
+
+    .sidebar-title>span {
+        display: inline;
+    }
+}
+
+/* Small <= 768px */
+
+@media screen and (max-width: 768px) {
+    .main-cards {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    .charts {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+}
+
+/* Extra Small <= 576px */
+
+@media screen and (max-width: 576px) {
+    .hedaer-left {
+        display: none;
+    }
+}
